@@ -1,0 +1,9 @@
+Plugins de redes sociais
+
+https://developers.facebook.com/docs/plugins/page-plugin
+
+
+
+Icones de redes sociais
+
+http://fontawesome.io/icons/
