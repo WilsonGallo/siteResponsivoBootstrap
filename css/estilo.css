@@ -5,7 +5,7 @@ font-family: 'PT Sans Narrow', sans-serif;
 font-family: 'Open Sans Condensed', sans-serif; 
 
 **/
-/* ---- particles.js container ---- */
+/* ---- particles.js container ---- 
 
 #particles-js{
   width: 100%;
@@ -16,8 +16,13 @@ font-family: 'Open Sans Condensed', sans-serif;
   background-position: 50% 50%;
   background-repeat: no-repeat;
 }
+*/
   body {
       position: relative; 
+  }
+  .navbar-header .logotopo{
+    padding-top: 10px;
+    padding-bottom: 5px;
   }
 .carousel-inner img{
     margin: auto;
@@ -40,35 +45,79 @@ font-family: 'Open Sans Condensed', sans-serif;
 .navbar-toggle { 
   background: #2F4FAF; 
 }**/
-.margin-top10{ 
-  margin-top: 10px;
-} 
-.margin-top20{ 
-  margin-top: 20px;
-}
-.margin-top25{ 
-  margin-top: 25px 
-}
-.margin-top30{ 
-  margin-top: 30px 
-}
-.margin-top40{ 
-  margin-top: 40px 
-}
-.margin-top50{ 
-  margin-top: 50px 
-}
 
+.margin-top10{ margin-top: 10px; } 
+.margin-top20{ margin-top: 20px; }
+.margin-top25{ margin-top: 25px  }
+.margin-top30{ margin-top: 30px  }
+.margin-top40{ margin-top: 40px  }
+.margin-top50{ margin-top: 50px  }
+
+.margin-bottom5  { margin-bottom:  5px; }
 .margin-bottom10 { margin-bottom: 10px; }
 .margin-bottom20 { margin-bottom: 20px; }
 .margin-bottom30 { margin-bottom: 30px; }
 .margin-bottom40 { margin-bottom: 40px; }
 .margin-bottom50 { margin-bottom: 50px; }
 
+
+.texto-empresa h2{
+  border-bottom: #00009C solid 3px;
+    padding-bottom: 15px;
+    margin: 0px;
+    font-size: 35px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-align: center;
+    margin-bottom:20px;
+}
+.texto-empresa p{
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+/* ESPECIALIDADES */
+
+.especialidades h2{
+   border-bottom: #00009C solid 3px;
+    padding-bottom: 15px;
+    margin: 0px;
+    font-size: 35px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-align: center;
+    margin-bottom:20px;
+}
+
+.especialidades .especialidades-item{   /* Transparencia */
+  text-align: center;
+  background: rgba(255, 255, 255, 0.50);
+  padding: 15px;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.especialidades .especialidades-item img{
+  height: 150px;
+  width: 300px;
+  margin-bottom: 5px;
+  margin-top: 5px;  
+ }
+.especialidades .especialidades-item h2{    /* Linha */
+  border-bottom: #00009C solid 3px;
+  padding-bottom: 15px;
+  margin: 0px;
+  font-size: 30px;
+ }
+
+.especialidades .especialidades-item p {
+  font-size: 15px;
+  height: 100px;
+ }
+
+
 /* ACESSO RÃPIDO */
 .acesso-rapido { 
   background: url('../img/acesso-rapido.jpg');
  }
+
 .acesso-rapido .acesso-rapido-item{   /* Transparencia */
   text-align: center;
   background: rgba(255, 255, 255, 0.50);
@@ -84,7 +133,7 @@ font-family: 'Open Sans Condensed', sans-serif;
  }
 
   .acesso-rapido .acesso-rapido-item h2{    /* Linha */
-    border-bottom: #FFF solid 3px;
+    border-bottom: #fff000 solid 3px;
     padding-bottom: 15px;
     margin: 0px;
     font-size: 30px;
@@ -96,7 +145,7 @@ font-family: 'Open Sans Condensed', sans-serif;
   }
 
   .noticias-eventos h2{
-    border-bottom: #fff000 solid 3px;
+    border-bottom: #00009C solid 3px;
     padding-bottom: 15px;
     margin: 0px;
     font-size: 35px;
@@ -110,20 +159,26 @@ font-family: 'Open Sans Condensed', sans-serif;
   }
 
   .contato-fanpage h2{
-    border-bottom: #fff000 solid 3px;
+    border-bottom: #00009C solid 3px;
     padding-bottom: 15px;
     margin: 0px;
     font-size: 23px;
   }
 
   .contato-fanpage form{
-    padding: 25px;
+    padding: 15px;
   }
 
-  /**footer {
-    background-color: #F3F3f3;
+  .fb-page{
+    padding-top: 25px;
+    text-align: center;
+
+  }
+
+  footer {
+    background-color: #00009C;
     height: 250px; 
-  }**/
+  }
 
   footer .logo{
     padding-top: 15px;
